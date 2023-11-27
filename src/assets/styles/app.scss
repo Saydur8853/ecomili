@@ -1,0 +1,52 @@
+ 
+
+:root { 
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+// Scrollbar Design 
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #E5E7E9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #95A5A6;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #717D7E;
+}
+
+.sidebar-menu-active {
+    background-color: #EBEDEF;
+    border-radius: 5px;
+}
+
+.rad-grad {
+    border-radius: 8px !important;
+    box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px !important;
+}
+   
+
+.css-k4qjio-MuiFormHelperText-root{
+    margin-left: 0 !important;
+}
